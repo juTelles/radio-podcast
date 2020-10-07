@@ -1,0 +1,84 @@
+html {
+ font-size: 16px;
+ font-family: sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+#container {
+  margin: 10px auto;
+  width: 90%;
+}
+div {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  font-size: 2.3rem;
+  margin: 30px auto;
+  text-shadow: 0.5px 0.5px 0.5px white;
+  width: 100%;
+  text-align: center;
+}
+input {
+  margin: 10px auto;
+  text-align: center;
+}
+.radio-div {
+  background: rgba(223, 219, 219, 0.308);
+  width: 70%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 15px 0px;
+  box-shadow: 1px 1px 3px rgb(216, 211, 211);
+}
+.frequency-display {
+  width: 70px;
+  font-size: 1rem;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgb(216, 211, 211);
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px white;
+}
+.frequency-range {
+  width: 70%;
+}
+.podcast-div {
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column;
+
+}
+.podcast-title {
+  font-size: 1.3rem;
+  margin: 10px auto;
+}
+.podcast-description {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px auto;
+  width: 50%;
+  min-width: 190px;
+}
+.img-div {
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  min-width: 190px;
+  max-width: 360px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.hide {
+  display: none;
+}
